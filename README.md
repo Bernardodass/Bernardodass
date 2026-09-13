@@ -36,5 +36,5 @@ HTML, CSS e JavaScript escritos do zero, sem framework ou template.
 
 ## Contato
 
-- LinkedIn: https://linkedin.com/bernardodass
+- LinkedIn: https://linkedin.com/in/bernardodass
 - Site: https://cycleslabs.com.br
