@@ -1,40 +1,61 @@
 # Bernardo Dassan
 
-Estudante de Ciência da Computação (1º semestre) e técnico de TI em São Paulo.
-Trabalho principalmente com back-end: Node.js, TypeScript e PostgreSQL.
-Busco oportunidade de estágio ou posição júnior em back-end.
+Estudante de Ciência da Computação (2º semestre, FMU) em São Paulo. Trabalhei como técnico de TI de janeiro a agosto de 2026.
+
+Foco em back-end: Node.js, TypeScript e PostgreSQL.
+
+Busco estágio em desenvolvimento de software (back-end ou full stack).
 
 ## Cycles Labs — cycleslabs.com.br
 
-SaaS full-stack em produção, desenvolvido e mantido por mim.
-Aproximadamente 60 mil linhas de TypeScript. Código-fonte fechado.
+SaaS de análise facial em produção, desenvolvido e mantido por mim. O usuário envia duas fotos e recebe uma análise com métricas e um plano de ações; planos gratuito e pagos por assinatura.
+
+Código-fonte fechado, disponível para avaliação sob solicitação.
 
 O que foi construído:
 
-- **Autenticação** — hash de senha com bcrypt, OAuth com Google e Discord, sessões persistidas em PostgreSQL
-- **Pagamentos recorrentes** — integração com Stripe e Asaas: assinaturas, webhooks, reembolsos e cupons
-- **Integrações de IA** — Google Gemini, Face++ e um microserviço próprio de landmarks faciais baseado em 3DDFA
-- **Infraestrutura e abuso** — rate limiting e detecção de multicontas
-- **Testes e deploy** — Vitest, build com Vite, deploy contínuo na Render
+- Autenticação — senha com bcrypt, OAuth com Google e Discord, sessões persistidas em PostgreSQL
 
-Stack: Node.js · Express · TypeScript · PostgreSQL / Supabase · React 19 · Vite · Tailwind CSS · Vitest · Stripe · Render
+- Pagamentos recorrentes — Stripe e Asaas: assinaturas, webhooks, reembolsos, cupons e conciliação
+
+- Banco de dados — PostgreSQL no Supabase, migrações versionadas em SQL e políticas RLS
+
+- Análise — Google Gemini, Face++, MediaPipe no navegador e um microsserviço Python/FastAPI com 3DDFA para landmarks 3D
+
+- Proteção — rate limiting e detecção de multicontas
+
+- Testes e deploy — Vitest (15 arquivos de teste), Docker, Railway em produção e Render como preview
+
+Stack: Node.js · Express · TypeScript · PostgreSQL / Supabase · React 19 · Vite · Tailwind CSS · Vitest · Docker · Railway · Render
 
 ## FAP Transportes — faptransportes.com
 
-Site institucional desenvolvido como freelance remunerado.
-HTML, CSS e JavaScript escritos do zero, sem framework ou template.
+Site institucional de uma transportadora, desenvolvido como freelance remunerado. HTML, CSS e JavaScript puro, sem framework ou template, hospedado na Vercel.
+
+Repositório: https://github.com/Bernardodass/faptransportes
+
+## Microblog em PHP e MySQL
+
+Aplicação com área pública e área administrativa: autenticação, níveis de acesso e CRUD de usuários e de notícias.
+
+Repositório: https://github.com/Bernardodass/microblog-bernardo
 
 ## Stack
 
-**Back-end:** Node.js, Express, TypeScript, PostgreSQL, Supabase, REST APIs, webhooks, OAuth 2.0
+Back-end: Node.js, Express, TypeScript, PostgreSQL, Supabase, APIs REST, webhooks, OAuth 2.0, PHP
 
-**Front-end:** React 19, Vite, Tailwind CSS, JavaScript, HTML, CSS
+Front-end: React 19, Vite, Tailwind CSS, JavaScript, HTML, CSS
 
-**Testes e infra:** Vitest, Git, Render, Vercel
+Testes e infra: Vitest, Git, Docker, Railway, Render, Vercel
 
-**Também já usei:** PHP, MySQL, Bootstrap
+Dados: SQL, Excel Avançado, Power BI
+
+Também já usei: MySQL, Bootstrap, Python (FastAPI)
 
 ## Contato
 
 - LinkedIn: https://linkedin.com/in/bernardodass
+
 - Site: https://cycleslabs.com.br
+
+- E-mail: bernardo113322@gmail.com
